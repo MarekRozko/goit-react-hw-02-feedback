@@ -1,0 +1,50 @@
+.listButtons{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+   
+    
+
+}
+.itemListButtons,
+.ListStatistics{
+    list-style: none;
+}
+.containerFeedback{
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 500px;
+  border: 2px solid greenyellow;
+  border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgb(203, 29, 151);   
+}
+.buttonFeedback{
+    padding: 7px 15px;
+    border: 2px solid rgb(12, 12, 220);
+    border-radius: 4px;
+    font-size:16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.buttonFeedback:not(:last-child){
+    margin-right: 20px;
+}
+.buttonFeedback:hover{
+    background-color: greenyellow;
+    color: rgb(241, 132, 6);
+}
+.titleFeedback{
+    text-align: center;
+}
+.positive{
+    font-size: 18px;
+    font-weight: 600;
+}
+.message{
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    font-weight: bold;
+}

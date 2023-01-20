@@ -1,4 +1,4 @@
-import styles from "../Feedback/feedback.module.css";
+import styles from "../Section/section.module.css";
 
 const Section = ({ title, children }) => {
     return (
